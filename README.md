@@ -13,7 +13,7 @@
 * Реалізувати:
   * **2 породжувальні патерни** (наприклад: Factory Method, Abstract Factory, Builder, Singleton, Prototype)
   * **2 структурні патерни** (наприклад: Adapter, Facade, Decorator, Composite, Proxy, Bridge)
-  * **1 поведінковий патерн** (наприклад: Strategy, Observer, Command, Iterator, Chain of Responsibility)
+  * **2 поведінковий патерн** (наприклад: Strategy, Observer, Command, Iterator, Chain of Responsibility)
 * Продемонструвати роботу кожного патерна (консольний приклад або простий сценарій)
 * Пояснити, яку проблему вирішує кожен патерн
 * Порівняти, як патерни покращують архітектуру коду порівняно з «анти-прикладами»
@@ -25,7 +25,7 @@
 * Реалізовано **мінімум 5 патернів**:
   * 2 породжувальні
   * 2 структурні
-  * 1 поведінковий
+  * 2 поведінковий
 * Кожен патерн:
   * реалізований у окремій директорії  
   * має зрозумілий приклад застосування  
@@ -76,3 +76,7 @@
 [JavaScript Design Patterns — Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
 [Gang of Four (GoF) Patterns Overview](https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns)
+
+[Ти мусиш знати ці патерни проєктування!](https://www.youtube.com/watch?v=Dc6AEjHvpP8)
+
+[abstract-factory-pattern](https://medium.com/@artemkhrenov/abstract-factory-pattern-implementation-in-javascript-7d05c99842b4)
