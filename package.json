@@ -1,0 +1,41 @@
+{
+  "name": "pis-pz-gof-patterns",
+  "version": "1.0.0",
+  "description": "PIS-PZ-GoF Patterns Implementation in TypeScript",
+  "main": "dist/examples/run-all.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/examples/run-all.js",
+    "dev": "ts-node src/examples/run-all.ts",
+    "clean": "rm -rf dist",
+    "pattern:factory": "ts-node src/examples/patterns/factory-method.ts",
+    "pattern:singleton": "ts-node src/examples/patterns/singleton.ts",
+    "pattern:facade": "ts-node src/examples/patterns/facade.ts",
+    "pattern:decorator": "ts-node src/examples/patterns/decorator.ts",
+    "pattern:observer": "ts-node src/examples/patterns/observer.ts",
+    "pattern:bridge": "ts-node src/structural/bridge/index.ts",
+    "antipattern:factory": "ts-node src/examples/antipatterns/anti-factory-method.ts",
+    "antipattern:singleton": "ts-node src/examples/antipatterns/anti-singleton.ts",
+    "antipattern:facade": "ts-node src/examples/antipatterns/anti-facade.ts",
+    "antipattern:decorator": "ts-node src/examples/antipatterns/anti-decorator.ts",
+    "antipattern:observer": "ts-node src/examples/antipatterns/anti-observer.ts",
+    "antipattern:bridge": "ts-node src/examples/antipatterns/anti-bridge.ts"
+  },
+  "keywords": [
+    "design-patterns",
+    "gof",
+    "typescript",
+    "factory-method",
+    "singleton",
+    "facade",
+    "decorator",
+    "observer"
+  ],
+  "author": "Mazur",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}

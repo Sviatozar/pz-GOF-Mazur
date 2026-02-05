@@ -1,0 +1,1 @@
+export { SmartHomeFacade } from "./SmartHomeFacade";
