@@ -4,8 +4,7 @@ import { TVStation, RadioStation, Newspaper, MobileApp } from "./observers";
 export function demonstrateObserver(): void {
   console.log("Демонстрація observer pattern\n");
 
-  //БЕЗ Observer (тісна кон'юнкція):
-  //Клієнт повинен сам управляти всіма залежностями:
+  //Без Observer клієнт повинен сам управляти всіма залежностями:
 
   class SimpleNewsAgency {
     private tv: any;
@@ -16,14 +15,14 @@ export function demonstrateObserver(): void {
       this.tv = tv;
       this.radio = radio;
       this.newspaper = newspaper;
-      //... По потребі додати нових, прийдеться додавати в цей метод і у publishNews внизу
+      //... По потребі додати нових, прийдеться додавати в цей метод і у publishNews
     }
 
     publishNews(news: string): void {
       this.tv.show(news);
       this.radio.play(news);
       this.newspaper.print(news);
-      //... По потребі додати нових, прийдеться додавати в цей метод і у конструктор вишще
+      //... По потребі додати нових, прийдеться додавати в цей метод і у конструктор
     }
   }
 
